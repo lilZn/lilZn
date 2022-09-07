@@ -1,14 +1,10 @@
-int num = -7;
-int main()
+#include<stdio.h>
+int main(void)
 {
-	int arr【】 = { 0,1, 2, 3, 4, 5, 6, 7, 8, 9,-1,-2,-3,-4,-5,-6,-7,-8,-9 };
-	int b = num % 2;
-	if(b == arr【19】, b > 0 || b < 0)
-		printf("是奇数\n");
-	else if (b == 0)
-		printf("是偶数\n");
-	else
-		printf("不知道\n");
-	
+	int num;
+	num = 1;
+	printf("i am a simple");
+	printf("computer.\n");
+	printf("my favourite number is %d because it is first.\n", num);
 	return 0;
 }
